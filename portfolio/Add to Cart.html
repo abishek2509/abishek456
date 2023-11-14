@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/DELL/Downloads/java%20script/addtocart.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Add to Cart</title>
+</head>
+<body>
+	<div>
+	<h1>Add to Cart</h1>
+	<input type="text">
+	<button type="button" onclick="insertCardItems()">Add</button>
+	<h3>My Cart Items</h3>
+	<li>book</li>
+	<li>pen</li>
+	<li>pencil</li>
+	</div>
+	<script>
+		function insertCardItems(){
+			var div = document.createElement('div');
+    		var text = document.createTextNode('book');
+    		var button = document.createElement('button');
+    		var buttonText = document.createTextNode('Click');
+    		button.appendChild(buttonText);
+    		div.appendChild(text);
+    		div.appendChild(input);
+    		div.appendChild(button);
+    		document.body.appendChild(div);     
+    		}
+    		createDOMObject();
+	</script>
+
+</body></html>
